@@ -18,18 +18,33 @@
             ]
         },
         {
-            "title":"タイトル2",
+            "title":"Omake",
             "content":[
-                "一行目",
-                "二行目",
-                "三行目"
+                "最近は色々とやっています。最終的にはマルチプラットフォームのアプリとかゲーム、MinecraftのModについての開発を行いたいですね。ただ、複数名との開発は厳しいように感じているのでおそらく個人でしょう"
+            ]
+        },
+        {
+            "title":"ソノタ",
+            "content":[
+                "勝手に当方の創作物で金を得る外道行為だけはお控えくださいとだけ言っておきます(まともな物はないけどネ)",
+                "仮に当方の創作物を使用したい場合は「問い合わせ」の方にでもお願いしまっせ。順次対応します。",
+                "※原則「個人」で「インターネットを用いない環境」かつ「非営利目的の使用」,「その他あらかじめ規定が明記されている場合」であれば別に連絡は不必要ですので常識の範囲内でご自由にどうぞ"
             ]
         },
         {
             "title":"問い合わせ",
             "content":[
-                "・DMもしくはメールとなっております。明らかにモラル越した内容の場合はブロックする場合もあります。あらかじめご了承ください。",
+                "DMもしくはメールとなっております。明らかにモラル越した内容の場合はブロックする場合もあります。あらかじめご了承ください。",
                 "(流石にありえないとは思いますが、業務依頼等についてはメールでのみ対応します)"
+            ]
+        },
+        {
+            "title":"権利表記等",
+            "content":[
+                "アイコン:皿理満さん (https://x.com/sarariman114?s=21)",
+                "",
+                "著作権表記(自家製作物に限る)",
+                "©︎2024-2025 MM_San"
             ]
         }
     ],
@@ -38,26 +53,31 @@
         {
             "name":"Email",
             "id":"support@naganohama.com",
-            "content":"一言",
-            "link":""
+            "content":"",
+            "link":"",
+            "icon":""
         },
         {
             "name":"X (旧Twitter)",
             "id":"@K1kukam1_3",
             "content":"ROM専です。特に何もないです",
-            "link":"https://x.com/K1kukam1_3"
+            "link":"https://x.com/K1kukam1_3",
+            "icon":""
         },
         {
             "name":"BlueSky",
             "id":"@mm-san.bsky.social",
             "content":"時々独り言を呟いています",
-            "link":"https://bsky.app/profile/mm-san.bsky.social"
+            "link":"https://bsky.app/profile/mm-san.bsky.social",
+            "icon":""
         },
         {
             "name":"GitHub",
             "id":"MM_San",
             "content":"開発とかやっています。今はNext.JSを勉強しています",
-            "link":"https://github.com/MizuMario"
+            "link":"https://github.com/MizuMario",
+            "icon":""
+            
         }
     ]
 }

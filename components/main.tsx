@@ -9,11 +9,11 @@ export function Main()
         {profile.texts.map((data, index) => (
             <div key={index} className={style.background}>
                 <div className={style.title}>
-                    <p style={{ marginTop: '1vh', marginLeft: '1vh', marginBottom: '0px', marginRight: '16px' }}>{profile.texts[index].title}</p>
+                    <p style={{ marginTop: '1vh', marginLeft: '1.5vh', marginBottom: '0px', marginRight: '16px',fontSize: '2vh' }}>{profile.texts[index].title}</p>
                 </div>
                 <div className={style.content}>
                     {profile.texts[index].content.map((content, contentIndex) => (
-                        <p key={contentIndex} style={{ marginTop: '1vh', marginLeft: '1vh', marginBottom: '1vh', marginRight: '1vh' }}>{content}</p>
+                        <p key={contentIndex} style={{ marginTop: '0vh', marginLeft: '1.5vh', marginBottom: '1vh', marginRight: '1vh' }}>{content}</p>
                     ))}
                 </div> 
             </div>

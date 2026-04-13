@@ -13,9 +13,9 @@ export function Contact()
                 <Image src="file.svg" alt="info" layout="fill" />
             </div>
             <div className={style.text}>
-                <a href={profile.links[index].link}> <h2 style={{marginTop: '1vh',marginBottom: '0px',marginLeft: '1vh',fontSize: '2vh'}}>{profile.links[index].name}</h2></a>
-                <p style={{marginTop: '0px',marginBottom: '0px',marginLeft: '1vh',fontSize: '1.5vh'}}>{profile.links[index].id}</p>
-                <p style={{marginTop: '0px',marginBottom: '0px',marginLeft: '1vh',fontSize: '1.75vh'}}>{profile.links[index].content}</p>
+                <a href={profile.links[index].link}> <p style={{marginTop: '0.25vh',marginBottom: '0px',marginLeft: '0.25vh',fontSize: '1.75vh'}}>{profile.links[index].name}</p></a>
+                <p style={{marginTop: '0px',marginBottom: '0px',marginLeft: '0.25vh',fontSize: '1.25vh',color: '#7F7F7F'}}>{profile.links[index].id}</p>
+                <p style={{marginTop: '0px',marginBottom: '0.25vh',marginLeft: '0.25vh',fontSize: '1.5vh'}}>{profile.links[index].content}</p>
             </div>
         </div> 
         ))}

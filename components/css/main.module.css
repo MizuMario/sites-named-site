@@ -11,12 +11,11 @@ body,html {
     justify-content: center;
     align-items: center; 
     height: auto;
-    background-color: gray;
 }
 .background
 {
-    margin-top: 1vh;
-    width: 50%;
+    margin-top: 2.5vh;
+    width: 40%;
     height: 100%;
     background-color: white;
     border-radius: 3vh;
