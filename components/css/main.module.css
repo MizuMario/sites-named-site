@@ -4,6 +4,8 @@ body,html {
 }
 .main
 {
+    display: flex;
+    flex-direction: column;
     margin-top: 5vh;
     display: flex;
     justify-content: center;
@@ -13,6 +15,7 @@ body,html {
 }
 .background
 {
+    margin-top: 1vh;
     width: 50%;
     height: 100%;
     background-color: white;

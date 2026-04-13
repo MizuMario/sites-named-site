@@ -1,17 +1,26 @@
 import style from "./css/main.module.css";
+//Jsonファイルの読み込み用処理
+import profile from "../profile.json";
+
+const maindata = profile.texts;
+
 
 export function Main()
 {
   return (
     <div className={style.main}>
-        <div className={style.background}>
-            <div className={style.title}>
-                <p style={{ marginTop: '16px', marginLeft: '16px', marginBottom: '0px', marginRight: '16px' }}>Title</p>
+        {maindata.map((data, index) => (
+            <div key={index} className={style.background}>
+                <div className={style.title}>
+                    <p style={{ marginTop: '1vh', marginLeft: '1vh', marginBottom: '0px', marginRight: '16px' }}>{profile.texts[index].title}</p>
+                </div>
+                <div className={style.content}>
+                    {profile.texts[index].content.map((content, contentIndex) => (
+                        <p key={contentIndex} style={{ marginTop: '1vh', marginLeft: '1vh', marginBottom: '1vh', marginRight: '1vh' }}>{content}</p>
+                    ))}
+                </div> 
             </div>
-            <div className={style.content}>
-                <p style={{ marginTop: '10px', marginLeft: '16px', marginBottom: '16px', marginRight: '16px' }}>Welcome to my app!</p>
-            </div>
-        </div>
+        ))}
     </div>
   );
 }

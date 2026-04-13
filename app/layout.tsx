@@ -11,6 +11,8 @@ const mPlusRounded1c = M_PLUS_Rounded_1c({
   variable: '--font-mPlusRounded1c',
 });
 
+//配列系の処理をかましたい
+
 //レイアウトの構成
 export default function HomePage() {
   // 必要に応じてサーバーで言語コードを取得
@@ -20,7 +22,7 @@ export default function HomePage() {
     <html>
       <body className={`${mPlusRounded1c.variable}`}>
         <Info />
-        <Main />
+          <Main />
         <Contact />
       </body>
     </html>
