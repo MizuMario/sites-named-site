@@ -3,6 +3,8 @@ import{ Main } from '../components/main';
 import{ Contact } from '../components/contact';
 import{M_PLUS_Rounded_1c} from 'next/font/google';
 import './globals.css';
+import profile from '../profile.json';
+import { Icon } from '@mui/material';
 
 // Google Fontsの設定
 const mPlusRounded1c = M_PLUS_Rounded_1c({
@@ -20,6 +22,10 @@ export default function HomePage() {
 
   return (
     <html>
+      <head>
+        <meta charSet="UTF-8" />
+        <title>{profile.title}</title>
+      </head>
       <body className={`${mPlusRounded1c.variable}`}>
         <Info />
           <Main />

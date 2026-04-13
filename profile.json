@@ -1,21 +1,20 @@
 {
     "icon":"サイトのアイコン",
-    "title":"サイトのタイトル名",
+    "title":"サイトという名のサイト",
     "userinformation":
     {
         "user-icon":"ユーザーのアイコン",
-        "user-name":"ユーザー名",
-        "oneword":"一言",
-        "otherword":"代名詞"
+        "user-name":"Mizu_Mario",
+        "oneword":"何もやっていない人",
+        "otherword":"骨"
     },
     "texts":
     [
         {
-            "title":"タイトル1",
+            "title":"About",
             "content":[
-                "一行目",
-                "二行目",
-                "三行目"
+                "・やぁやぁ 「MM_SAN」でっせ。もしもさん付けなら「MM_SAN”さん”」になるので気をつけよい。",
+                "・うん。これしか言うことなかった…(悲)"
             ]
         },
         {
@@ -27,30 +26,38 @@
             ]
         },
         {
-            "title":"タイトル3",
+            "title":"問い合わせ",
             "content":[
-                "一行目",
-                "二行目",
-                "三行目"
+                "・DMもしくはメールとなっております。明らかにモラル越した内容の場合はブロックする場合もあります。あらかじめご了承ください。",
+                "(流石にありえないとは思いますが、業務依頼等についてはメールでのみ対応します)"
             ]
         }
     ],
     "links":
     [
         {
-            "name":"サービス名",
-            "id":"ユーザー名",
-            "content":"メッセージ"
+            "name":"Email",
+            "id":"support@naganohama.com",
+            "content":"一言",
+            "link":""
         },
         {
-            "name":"サービス名",
-            "id":"ユーザーid",
-            "content":"メッセージ"
+            "name":"X (旧Twitter)",
+            "id":"@K1kukam1_3",
+            "content":"ROM専です。特に何もないです",
+            "link":"https://x.com/K1kukam1_3"
         },
         {
-            "name":"サービス名",
-            "id":"https://リンク名",
-            "content":"メッセージ"
+            "name":"BlueSky",
+            "id":"@mm-san.bsky.social",
+            "content":"時々独り言を呟いています",
+            "link":"https://bsky.app/profile/mm-san.bsky.social"
+        },
+        {
+            "name":"GitHub",
+            "id":"MM_San",
+            "content":"開発とかやっています。今はNext.JSを勉強しています",
+            "link":"https://github.com/MizuMario"
         }
     ]
 }
