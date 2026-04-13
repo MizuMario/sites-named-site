@@ -10,7 +10,7 @@ export function Contact()
         {profile.links.map((data, index) => (
         <div key={index} className={style.background}>
             <div className={style.icon}>
-                <Image src="file.svg" alt="info" layout="fill" />
+                <Image src="file.svg" alt="info" layout="fill" style={{borderRadius: '50%'}}/>
             </div>
             <div className={style.text}>
                 <a href={profile.links[index].link}> <p style={{marginTop: '0.25vh',marginBottom: '0px',marginLeft: '0.25vh',fontSize: '1.75vh'}}>{profile.links[index].name}</p></a>

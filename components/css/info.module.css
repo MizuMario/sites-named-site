@@ -17,10 +17,10 @@
 .icon
 {
     position: relative;
-    
+    margin-top: 0.5vh;
+    margin-left: 0.5vh;
     width: 8vh;
     height: 8vh;
-    background-color:gray;
     border-radius: 100%;
 }
 .title{

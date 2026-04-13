@@ -10,7 +10,7 @@ export function Info()
     <div className={style.info}>
         <div className={style.background}>
             <div className={style.icon}>
-                <Image src="file.svg" alt="info" layout="fill"/>
+                <Image src="file.svg" alt="info" layout="fill" style={{borderRadius: '50%'}}/>
             </div>
             <div className={style.text}>
                 

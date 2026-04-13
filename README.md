@@ -1,26 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## サイトという名のサイト
 
-## Getting Started
+某l⚪︎t.linkのやp⚪︎ofcard的なプロフィールを表示するサイトを自分で作れるのではないかと思って作っている物
+プラットフォームははNext.JSです
 
-First, run the development server:
+## 導入方法
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. このプロジェクトをクローン
+2. プロジェクト内に存在する```Profile.json```を編集 +αで画像等を用意
+3. サーバーを起動
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 基本機能
+基本的にはl⚪︎t.linkを準拠していますので以下の機能は数なくともあります
+- ユーザー名やアイコンの表示
+- 色々とメッセージを表示
+- SNSやサイトのアイコン・URLの配置
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
+加えて、Next.JS(HTML)のため"一応"以下のことも技術的には可能です。ただし、UIの変更についてはやる気があるというわけでは何のでご自身で改良の方をお願いします。
+- 独自デザイン
+- いい感じに画像を配置
 
 To learn more about Next.js, take a look at the following resources:
 
