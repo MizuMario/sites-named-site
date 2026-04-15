@@ -19,15 +19,8 @@
 - 独自デザイン
 - いい感じに画像を配置
 
-To learn more about Next.js, take a look at the following resources:
+#　仕様
+単純な話、Jsonファイルからテキストを読み込んで表示しているだけです。簡単ですね。なんならNextJSである必要性はあんまりないですね☆
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# その他
+別に私個人が使用したいので作っているだけなのでバグの報告等はお控え願いします。勝手にフォークして勝手に改造してください
